@@ -1,0 +1,9 @@
+A:/educ/smp/Homework-1/build/5_15_14_mingw64_static-Debug/CMakeFiles/Homework-1.dir
+A:/educ/smp/Homework-1/build/5_15_14_mingw64_static-Debug/CMakeFiles/edit_cache.dir
+A:/educ/smp/Homework-1/build/5_15_14_mingw64_static-Debug/CMakeFiles/rebuild_cache.dir
+A:/educ/smp/Homework-1/build/5_15_14_mingw64_static-Debug/CMakeFiles/list_install_components.dir
+A:/educ/smp/Homework-1/build/5_15_14_mingw64_static-Debug/CMakeFiles/install.dir
+A:/educ/smp/Homework-1/build/5_15_14_mingw64_static-Debug/CMakeFiles/install/local.dir
+A:/educ/smp/Homework-1/build/5_15_14_mingw64_static-Debug/CMakeFiles/install/strip.dir
+A:/educ/smp/Homework-1/build/5_15_14_mingw64_static-Debug/CMakeFiles/Homework-1_autogen_timestamp_deps.dir
+A:/educ/smp/Homework-1/build/5_15_14_mingw64_static-Debug/CMakeFiles/Homework-1_autogen.dir
