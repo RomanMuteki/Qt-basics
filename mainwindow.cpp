@@ -1,4 +1,5 @@
 #include "mainwindow.h"
+#include "auth.h"
 #include "./ui_mainwindow.h"
 #include <QLabel>
 #include <QLineEdit>
@@ -17,10 +18,16 @@ MainWindow::MainWindow(QWidget *parent)
     QPushButton *call_auth = new QPushButton("Авторизоваться", this);
     call_auth->setGeometry(120, 120, 120, 36);
     call_auth->show();
-
+    QObject::connect(call_auth, SIGNAL(clicked()), this, SLOT(on_callauthclicked()));
 }
 
 MainWindow::~MainWindow()
 {
     delete ui;
+}
+
+void MainWindow::on_callauthclicked(){
+    Auth auther;
+    auther.setModal(true);
+    auther.exec();
 }

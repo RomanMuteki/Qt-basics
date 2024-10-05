@@ -17,7 +17,8 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
-
+public slots:
+    void on_callauthclicked();
 private:
     Ui::MainWindow *ui;
 };
