@@ -38,6 +38,7 @@ else()
     else()
         add_executable(Homework-1
             ${PROJECT_SOURCES}
+            auth.h auth.cpp auth.ui
         )
     endif()
 endif()
