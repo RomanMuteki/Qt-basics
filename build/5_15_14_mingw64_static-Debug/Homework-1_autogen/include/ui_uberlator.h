@@ -11,7 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QWidget>
+#include <QtWidgets/QDialog>
 
 QT_BEGIN_NAMESPACE
 
@@ -19,7 +19,7 @@ class Ui_uberlator
 {
 public:
 
-    void setupUi(QWidget *uberlator)
+    void setupUi(QDialog *uberlator)
     {
         if (uberlator->objectName().isEmpty())
             uberlator->setObjectName(QString::fromUtf8("uberlator"));
@@ -30,9 +30,9 @@ public:
         QMetaObject::connectSlotsByName(uberlator);
     } // setupUi
 
-    void retranslateUi(QWidget *uberlator)
+    void retranslateUi(QDialog *uberlator)
     {
-        uberlator->setWindowTitle(QCoreApplication::translate("uberlator", "Form", nullptr));
+        uberlator->setWindowTitle(QCoreApplication::translate("uberlator", "Dialog", nullptr));
     } // retranslateUi
 
 };

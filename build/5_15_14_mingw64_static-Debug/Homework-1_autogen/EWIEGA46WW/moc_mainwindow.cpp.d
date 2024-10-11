@@ -230,6 +230,7 @@ A:/educ/smp/Homework-1/build/5_15_14_mingw64_static-Debug/Homework-1_autogen/EWI
   A:/Programs/msys64/mingw64/qt5-static/include/QtCore/qline.h \
   A:/Programs/msys64/mingw64/qt5-static/include/QtCore/qlist.h \
   A:/Programs/msys64/mingw64/qt5-static/include/QtCore/qlogging.h \
+  A:/Programs/msys64/mingw64/qt5-static/include/QtCore/qmap.h \
   A:/Programs/msys64/mingw64/qt5-static/include/QtCore/qmargins.h \
   A:/Programs/msys64/mingw64/qt5-static/include/QtCore/qmetatype.h \
   A:/Programs/msys64/mingw64/qt5-static/include/QtCore/qnamespace.h \
@@ -259,6 +260,7 @@ A:/educ/smp/Homework-1/build/5_15_14_mingw64_static-Debug/Homework-1_autogen/EWI
   A:/Programs/msys64/mingw64/qt5-static/include/QtCore/qsystemdetection.h \
   A:/Programs/msys64/mingw64/qt5-static/include/QtCore/qtcore-config.h \
   A:/Programs/msys64/mingw64/qt5-static/include/QtCore/qtypeinfo.h \
+  A:/Programs/msys64/mingw64/qt5-static/include/QtCore/qvariant.h \
   A:/Programs/msys64/mingw64/qt5-static/include/QtCore/qvarlengtharray.h \
   A:/Programs/msys64/mingw64/qt5-static/include/QtCore/qvector.h \
   A:/Programs/msys64/mingw64/qt5-static/include/QtCore/qversiontagging.h \
@@ -274,21 +276,43 @@ A:/educ/smp/Homework-1/build/5_15_14_mingw64_static-Debug/Homework-1_autogen/EWI
   A:/Programs/msys64/mingw64/qt5-static/include/QtGui/qmatrix.h \
   A:/Programs/msys64/mingw64/qt5-static/include/QtGui/qpaintdevice.h \
   A:/Programs/msys64/mingw64/qt5-static/include/QtGui/qpalette.h \
+  A:/Programs/msys64/mingw64/qt5-static/include/QtGui/qpen.h \
   A:/Programs/msys64/mingw64/qt5-static/include/QtGui/qpixelformat.h \
   A:/Programs/msys64/mingw64/qt5-static/include/QtGui/qpixmap.h \
   A:/Programs/msys64/mingw64/qt5-static/include/QtGui/qpolygon.h \
   A:/Programs/msys64/mingw64/qt5-static/include/QtGui/qregion.h \
   A:/Programs/msys64/mingw64/qt5-static/include/QtGui/qrgb.h \
   A:/Programs/msys64/mingw64/qt5-static/include/QtGui/qrgba64.h \
+  A:/Programs/msys64/mingw64/qt5-static/include/QtGui/qtextcursor.h \
+  A:/Programs/msys64/mingw64/qt5-static/include/QtGui/qtextformat.h \
+  A:/Programs/msys64/mingw64/qt5-static/include/QtGui/qtextoption.h \
   A:/Programs/msys64/mingw64/qt5-static/include/QtGui/qtgui-config.h \
   A:/Programs/msys64/mingw64/qt5-static/include/QtGui/qtguiglobal.h \
   A:/Programs/msys64/mingw64/qt5-static/include/QtGui/qtransform.h \
   A:/Programs/msys64/mingw64/qt5-static/include/QtGui/qwindowdefs.h \
   A:/Programs/msys64/mingw64/qt5-static/include/QtGui/qwindowdefs_win.h \
+  A:/Programs/msys64/mingw64/qt5-static/include/QtWidgets/QDialog \
+  A:/Programs/msys64/mingw64/qt5-static/include/QtWidgets/QGridLayout \
+  A:/Programs/msys64/mingw64/qt5-static/include/QtWidgets/QLabel \
+  A:/Programs/msys64/mingw64/qt5-static/include/QtWidgets/QLineEdit \
   A:/Programs/msys64/mingw64/qt5-static/include/QtWidgets/QMainWindow \
+  A:/Programs/msys64/mingw64/qt5-static/include/QtWidgets/QPushButton \
+  A:/Programs/msys64/mingw64/qt5-static/include/QtWidgets/QVBoxLayout \
+  A:/Programs/msys64/mingw64/qt5-static/include/QtWidgets/qabstractbutton.h \
+  A:/Programs/msys64/mingw64/qt5-static/include/QtWidgets/qboxlayout.h \
+  A:/Programs/msys64/mingw64/qt5-static/include/QtWidgets/qdialog.h \
+  A:/Programs/msys64/mingw64/qt5-static/include/QtWidgets/qframe.h \
+  A:/Programs/msys64/mingw64/qt5-static/include/QtWidgets/qgridlayout.h \
+  A:/Programs/msys64/mingw64/qt5-static/include/QtWidgets/qlabel.h \
+  A:/Programs/msys64/mingw64/qt5-static/include/QtWidgets/qlayout.h \
+  A:/Programs/msys64/mingw64/qt5-static/include/QtWidgets/qlayoutitem.h \
+  A:/Programs/msys64/mingw64/qt5-static/include/QtWidgets/qlineedit.h \
   A:/Programs/msys64/mingw64/qt5-static/include/QtWidgets/qmainwindow.h \
+  A:/Programs/msys64/mingw64/qt5-static/include/QtWidgets/qpushbutton.h \
   A:/Programs/msys64/mingw64/qt5-static/include/QtWidgets/qsizepolicy.h \
   A:/Programs/msys64/mingw64/qt5-static/include/QtWidgets/qtabwidget.h \
   A:/Programs/msys64/mingw64/qt5-static/include/QtWidgets/qtwidgets-config.h \
   A:/Programs/msys64/mingw64/qt5-static/include/QtWidgets/qtwidgetsglobal.h \
-  A:/Programs/msys64/mingw64/qt5-static/include/QtWidgets/qwidget.h
+  A:/Programs/msys64/mingw64/qt5-static/include/QtWidgets/qwidget.h \
+  A:/educ/smp/Homework-1/auth.h \
+  A:/educ/smp/Homework-1/uberlator.h
