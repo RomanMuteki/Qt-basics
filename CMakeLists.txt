@@ -39,6 +39,8 @@ else()
         add_executable(Homework-1
             ${PROJECT_SOURCES}
             auth.h auth.cpp auth.ui
+            uberlator.h uberlator.cpp uberlator.ui
+            uberlator.h uberlator.cpp uberlator.ui
         )
     endif()
 endif()

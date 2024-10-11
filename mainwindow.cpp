@@ -1,24 +1,33 @@
 #include "mainwindow.h"
 #include "auth.h"
+#include "uberlator.h"
 #include "./ui_mainwindow.h"
-#include <QLabel>
 #include <QLineEdit>
 #include <QPushButton>
-#include <QGridLayout>
-#include <QTextEdit>
+#include <QVBoxLayout>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
-    ui->setupUi(this);
     setWindowTitle("SemiBase window");
-    setMinimumSize(300, 250);
+    setMinimumSize(200, 150);
 
-    QPushButton *call_auth = new QPushButton("Авторизоваться", this);
-    call_auth->setGeometry(120, 120, 120, 36);
-    call_auth->show();
+    call_auth = new QPushButton("Авторизоваться", this);
+    call_calc = new QPushButton("Активировать überлятор", this);
+    call_calc->setEnabled(false);
+
     QObject::connect(call_auth, SIGNAL(clicked()), this, SLOT(on_callauthclicked()));
+    QObject::connect(call_calc, SIGNAL(clicked()), this, SLOT(on_uberlatorcallclicked()));
+
+    QVBoxLayout *layout = new QVBoxLayout;
+    layout->addWidget(call_auth);
+    layout->addWidget(call_calc);
+
+    QWidget *centralWidget = new QWidget(this);
+    centralWidget->setLayout(layout);
+    setCentralWidget(centralWidget);
+
 }
 
 MainWindow::~MainWindow()
@@ -27,7 +36,13 @@ MainWindow::~MainWindow()
 }
 
 void MainWindow::on_callauthclicked(){
-    Auth auther;
-    auther.setModal(true);
-    auther.exec();
+    Auth auth;
+    auth.setModal(true);
+    QObject::connect(&auth, SIGNAL(authentificated(bool)), call_calc, SLOT(setEnabled(bool)));
+    auth.exec();
+}
+void MainWindow::on_uberlatorcallclicked(){
+    class uberlator uberlator;
+    uberlator.setModal(true);
+    uberlator.exec();
 }
